@@ -119,7 +119,7 @@ window.addEventListener('scroll', scrollActive)
 const link = document.createElement('a');
 document.querySelectorAll('.download-resume').forEach(button => {
   button.addEventListener('click', function () {
-    link.href = 'assets/files/arnabmondal.pdf';
+    link.href = 'assets/files/arnabmondal-resume.pdf';
     link.download = 'arnabmondal.pdf';
     document.body.appendChild(link);
     link.click();

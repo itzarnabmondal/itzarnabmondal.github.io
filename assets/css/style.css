@@ -6,16 +6,15 @@
 	--body-color: rgb(250, 250, 250);
 	--color-white: rgb(255, 255, 255);
 
-	--text-color-second: rgb(68, 68, 68);
-	--text-color-third: rgb(30, 159, 171);
+	--text-color-second: rgb(70, 70, 70);
+	--text-color-third: rgb(0, 204, 153); /* Caribbean Green */
 
-	--first-color: rgb(110, 87, 224);
-	--first-color-hover: rgb(40, 91, 212);
+	--first-color: rgb(0, 168, 107); /* Jade Green */
+	--first-color-hover: rgb(0, 255, 127); /* Guppie Green */
 
-	--second-color: rgb(0, 201, 255);
-	--third-color: rgb(192, 166, 49);
+	--second-color: rgb(0, 240, 168); /* Spring */
+	--third-color: rgb(141, 182, 0); /* Apple Green */
 	--first-shadow-color: rgba(0, 0, 0, 0.1);
-
 }
 
 /* ----- BASE ----- */
@@ -49,7 +48,6 @@ html {
 ::-webkit-scrollbar-thumb:hover {
 	background: #bbb;
 }
-
 
 /* ---##-- REUSABLE CSS --##--- */
 
@@ -164,7 +162,6 @@ nav {
 	background: var(--first-color);
 	border-radius: 50%;
 }
-
 
 /* ----- WRAPPER DESIGN ----- */
 .wrapper {
@@ -429,7 +426,7 @@ h3 {
 
 .project-box>i {
 	font-size: 50px;
-	color: #00B5E7;
+	color: rgb(0, 240, 168);
 	margin-bottom: 25px;
 }
 
