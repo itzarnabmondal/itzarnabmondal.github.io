@@ -120,7 +120,7 @@ const link = document.createElement('a');
 document.querySelectorAll('.download-resume').forEach(button => {
   button.addEventListener('click', function () {
     link.href = 'assets/files/arnabmondal-resume.pdf';
-    link.download = 'arnabmondal.pdf';
+    link.download = 'arnabmondal-resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
